@@ -4,43 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="#2596be"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+    tools:context=".MainActivity"
     >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" S I R A J U L - I S L A M "
-        android:textSize="34sp"
-        android:textColor="#C70039"
-        android:textStyle="bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textDirection="firstStrong"
-        />
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/success"
         android:layout_margin="30dp"
-        />
+        android:src="@drawable/success" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I am an enthusiastic individual who is eager to learn new things perpetually while getting myself up-to-date with cutting edge technologies. I am good at being a team player as well as leading a team. I am keener on Cross Platform Development(Flutter), IT Support ,Automation Testing and seek an opportunity related to one of these areas."
-        android:textSize="20sp"
-        android:padding="10dp"
         android:gravity="center"
-        />
+        android:padding="10dp"
+        android:text="I am an enthusiastic individual who is eager to learn new things perpetually while getting myself up-to-date with cutting edge technologies. I am good at being a team player as well as leading a team. I am keener on Cross Platform Development(Flutter), IT Support ,Automation Testing and seek an opportunity related to one of these areas."
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/click_here_to_know_more"
         android:layout_margin="20dp"
-        />
+        android:backgroundTint="#e28743"
+        android:text="@string/click_here_to_know_more" />
 
 </LinearLayout>
